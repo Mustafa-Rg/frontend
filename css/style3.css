@@ -1,4 +1,6 @@
 
+
+
 :root{
     --main-color:#3857A3;
 }
@@ -199,25 +201,6 @@ align-items: center;
         margin-top: 5px;
     }
 
-
-
-    .sign{
-        width: 45px;
-        margin-right: 100px;
-        height: 45px;
-        border-radius: 50%  ;
-        background-color: #24599570;
-        overflow: hidden;
-        background-size: cover;
-        padding: 0;
-    }
-
-    .sign img{
-        width: 100%;
-        object-fit: cover;
-        
-        /* height: 100%; */
-    }
 
 
 /* .main-create{

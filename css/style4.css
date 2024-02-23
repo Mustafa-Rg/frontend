@@ -67,12 +67,18 @@
   }
   
   .card .card-title {
+    font-weight: bold;
     font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
   }
   
   .card .card-content {
-    margin: 20px 0;
+    margin-top: 10px;
+    margin: auto;
     max-width: 85%;
+    text-align: center;
+    letter-spacing: 1px;
   }
   
   .card .card-link-wrapper {
@@ -171,7 +177,7 @@
 
 
 
-  body{margin-top:20px;
+  body{
     background-color:#f2f6fc;
     color:#69707a;
     }
@@ -229,6 +235,11 @@
         padding-right: 0;
         margin-left: 1rem;
         margin-right: 1rem;
+    }
+
+    .logout {
+      margin-left: 5px;
+      color: red !important;
     }
 
     

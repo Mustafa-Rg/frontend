@@ -1,8 +1,8 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     font-family: fantasy;
-}
+} */
 :root{
     --main-color: #3857A3;
 }
@@ -13,13 +13,6 @@
 }
 
 
-nav {
-    font-family: "Lalezar", system-ui;
-
-}
-nav img{
-
-}
 
 body{
     background-color: #eee;
