@@ -1,0 +1,234 @@
+.formholder{
+    height: 400px;
+}
+
+
+
+:root {
+    --red: #3857A3;
+    --darkred: #5c74b1;
+    --platinum: #e5e5e5;
+    --black: #2b2d42;
+    --white: #fff;
+    --thumb: #edf2f4;
+  }
+  
+  .cardos {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cardos {
+    font: 16px / 24px "Rubik", sans-serif;
+    color: var(--black);
+    background: var(--platinum);
+    margin: 10px 0;
+  }
+  
+  .container {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+   .cardos h2 {
+    font-size: 32px;
+    margin-bottom: 1em;
+  }
+  
+  .cards {
+    display: flex;
+    padding: 25px 0px;
+    list-style: none;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(76, 118, 160, 0.648);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+  }
+  
+  .card:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  .card:hover {
+    color: var(--white);
+    background: #3857A3 ;
+  }
+  
+  .card .card-title {
+    font-size: 20px;
+  }
+  
+  .card .card-content {
+    margin: 20px 0;
+    max-width: 85%;
+  }
+  
+  .card .card-link-wrapper {
+    margin-top: auto;
+  }
+  
+  .card .card-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: var(--blue);
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s;
+  }
+  
+  .card:hover .card-link {
+    background: white;
+    color: var(--blue);
+  }
+  
+  .cards::-webkit-scrollbar {
+    height: 12px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb,
+  .cards::-webkit-scrollbar-track {
+    border-radius: 92px;
+  }
+  
+  .cards::-webkit-scrollbar-thumb {
+    background: var(--darkred);
+  }
+  
+  .cards::-webkit-scrollbar-track {
+    background: var(--thumb);
+  }
+  
+  @media (min-width: 500px) {
+    .card {
+      flex-basis: calc(50% - 10px);
+    }
+  
+    .card {
+      margin-right: 20px;
+    }
+  }
+  
+  @media (min-width: 700px) {
+    .card {
+      flex-basis: calc(calc(100% / 3) - 20px);
+    }
+  
+    .card {
+      margin-right: 30px;
+    }
+  }
+  
+  @media (min-width: 1100px) {
+    .card {
+      flex-basis: calc(25% - 30px);
+    }
+  
+    .card:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  
+  
+  /* FOOTER STYLES
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .page-footer {
+    /* position: fixed;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    z-index: 1; */
+  }
+  
+  .page-footer a {
+    /* display: flex;
+    margin-left: 4px; */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  body{margin-top:20px;
+    background-color:#f2f6fc;
+    color:#69707a;
+    }
+    .img-account-profile {
+        height: 10rem;
+    }
+    .rounded-circle {
+        border-radius: 50% !important;
+    }
+    .card {
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+    }
+    .card .card-header {
+        font-weight: 500;
+    }
+    .card-header:first-child {
+        border-radius: 0.35rem 0.35rem 0 0;
+    }
+    .card-header {
+        padding: 1rem 1.35rem;
+        margin-bottom: 0;
+        background-color: rgba(33, 40, 50, 0.03);
+        border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+    }
+    .form-control, .dataTable-input {
+        display: block;
+        width: 100%;
+        padding: 0.875rem 1.125rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #69707a;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #c5ccd6;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.35rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    
+    .nav-borders .nav-link.active {
+        color: #0061f2;
+        border-bottom-color: #0061f2;
+    }
+    .nav-borders .nav-link {
+        color: #69707a;
+        border-bottom-width: 0.125rem;
+        border-bottom-style: solid;
+        border-bottom-color: transparent;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    

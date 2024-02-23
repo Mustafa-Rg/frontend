@@ -1,0 +1,468 @@
+
+:root{
+    --main-color:#3857A3;
+}
+
+
+/* #3857A3 */
+
+
+
+
+
+
+.sub{
+    margin-top: 20px;
+}
+.top{
+    margin-top:40px;
+    background-color: white;
+    height: 70px;
+    padding-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+.search input{
+    height:40px;
+    width: 100%;
+    margin: auto;
+    padding: 4px 10px;
+}
+.iconofseach{
+    position: absolute;
+    left: 28px;
+    top: 12px;
+    color: gray;
+}
+.select{
+    height:40px ;
+    width: 100%;
+    cursor: pointer;
+
+}
+.ss{
+    width: 70%;
+    margin: auto;
+    color: white;
+    height: 40px;
+    background-color: var(--main-color);
+    cursor: pointer;
+
+border: 2px solid var(--main-color);
+border-radius: 5px;
+
+}
+.ss2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ss2 p {
+    transform: translateY(7px);
+}
+.ss1 p{
+    transform: translateY(4px);
+}
+
+
+
+.post{
+    height: min-content; 
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    position: relative;
+}
+.post-head{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.volnteer, .hours{
+    background-color: var(--main-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.post-duties{
+    width: 70%;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 20px;
+    /* display: none; */
+}
+
+
+.post-requirments{
+    width: 70%;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 20px;
+    /* display: none; */
+
+}
+.post-extra{
+    width:100%;
+    margin-top: 20px;
+    text-align: start;
+    font-size: 20px;
+}
+
+
+.post-org{
+width: 100%;
+text-align: start;
+display: flex;
+align-items: center;
+}
+.post-org img{
+
+    width: 70px;
+}
+.dtl{
+    display: flex;
+    flex-direction: column;
+}
+ .post button{
+    background-color: var(--main-color);
+    width:100px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border-bottom-style:none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.iconofpost{
+    text-align: end;
+    font-size: 30px;
+    cursor: pointer;
+
+    /* position: absolute;
+    left: 30px;
+    top: 140px; */
+}
+.post-extra span{
+    cursor: pointer;
+    color: gray;
+}
+.despier{
+    display: none;
+}
+
+
+.custom-file-upload {
+    border: 2px dashed #dfdfdf;
+        background: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        margin: 0.5em 0 1em;
+    
+    }
+    
+    .custom-file-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .custom-file-label svg {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+    
+    #file-upload {
+      display: none;
+    }
+    
+    
+    .imo{
+        overflow: hidden;
+        position: relative;
+    }
+    label{
+        margin-top: 5px;
+    }
+
+
+
+    .sign{
+        width: 45px;
+        margin-right: 100px;
+        height: 45px;
+        border-radius: 50%  ;
+        background-color: #24599570;
+        overflow: hidden;
+        background-size: cover;
+        padding: 0;
+    }
+
+    .sign img{
+        width: 100%;
+        object-fit: cover;
+        
+        /* height: 100%; */
+    }
+
+
+/* .main-create{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .create-post{
+        text-align: start;
+        padding: 10px 25px;
+        height: min-content;
+        width: 800px;
+        background-color: white;
+
+    }
+    .create-post h4{
+text-align: center;
+margin-bottom: 44px;
+    }
+
+    .requirments{
+        width: 100%;
+        border-left :1px gray solid ;
+    }
+
+    .requirments input{
+        height: 100px;
+        padding: 5px;
+    }
+
+    .create-post p:focus input:focus {
+        border: none;
+        outline: none;
+        margin: auto;
+        margin-left: 10px;
+    }
+    .dutieso , .requirments{
+        height: 50%;
+        overflow: hidden;
+        position: relative;
+        
+    }
+
+
+    .desc {
+        margin-top: 40px;
+        border-top: 1px solid gray;
+        padding-top: 30px;
+        
+    } */
+
+
+
+
+    
+    .create-main{
+       height: 100vh;
+       width: 99%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: start;
+       margin-bottom: 30px;
+    }
+
+
+
+    .create-post{
+         height: 99vh;
+        width: 400px;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    }
+
+    .create-post h2{
+        color:rgba(0, 0, 0, 0.708);
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 5px;
+        /* border-bottom: 2px var(--main-color) solid; */
+        padding-bottom: 10px;
+    }
+
+
+    .post-requirments{
+        height: 30%;
+        overflow: hidden;
+    }
+    .create-post p{
+        font-size: 14px;
+        margin: auto;
+    }
+    .create-post p:focus {
+        border: none;
+        outline: none;
+    }
+
+
+    .create-duties{
+height: 30%;
+/* background-color: #3857A3; */
+text-align: start;
+overflow: hidden;
+    }
+
+
+    
+    .create-extra{
+        height: 30%;
+/* background-color: #3857A3; */
+text-align: start;
+overflow: hidden;
+    }
+
+
+    .create-main  button{
+        background-color: var(--main-color);
+        width:100px;
+        height: 40px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+        border-bottom-style:none;
+        border: none;
+        cursor: pointer;
+        margin-right: auto;
+        margin-left: 10px;
+    }
+.create-main input{
+    width: 100%;
+    height: 35px;
+    background-color:#EBEEF6;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+.create-main label{
+    text-align: start;
+    letter-spacing: 0.5px;
+    outline: none;
+    margin-top: 10px;
+
+}
+.create-main textarea{
+    resize: none;
+    background-color:#EBEEF6;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 100%;
+
+
+}
+
+ select{
+    border-radius: 5px;
+    outline: none;
+    background-color:#EBEEF6;
+    border: 1px var(--main-color) solid;
+    
+
+
+
+
+}
+.create-main select option{
+    background-color: white;
+    border-radius: 5px;
+    outline: none;
+
+
+}
+
+
+    .x1{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        flex-basis: 10px;
+        align-items: end;
+        
+        
+    }
+    .x1 button{
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px ;
+
+    }
+
+
+select:focus, input:focus, textarea:focus{
+    border: none;
+    outline: none;
+}
+
+.Hide{
+    display: block;
+}
+
+.volnteers{
+    padding: 40px;
+    text-align: center;
+}
+th:not(:last-of-type){
+    border-left: 3px black solid;
+}
+
+.volnteers table{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.volnteers th {
+    background-color: rgba(28, 75, 113, 0.646);
+    height: 40px;
+    border-bottom: 4px solid black;
+    /* margin: 0 10px; */
+
+}
+.volnteers td {
+    background-color: rgba(255, 255, 255, 0.646);
+    height: 40px;
+}
+td:not(:last-of-type){
+    border-left: 3px black solid;
+}
+td button{
+    width: 150px;
+    margin: auto;
+    height: 20px;
+    background-color: #3857A3;
+}
+

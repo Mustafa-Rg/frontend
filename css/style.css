@@ -1,0 +1,430 @@
+
+
+
+
+
+
+
+
+
+
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.ibm-plex sans arabic-thin {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans arabic-extralight {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans arabic-light {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans arabic-regular {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans arabic-medium {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans arabic-semibold {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans arabic-bold {
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .lalezar-regular {
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.navo{
+    font-family: "Lalezar", system-ui;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+    --main-color: #3857A3;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.hero{
+    height: 100vh;
+    margin-top: 15px;
+    overflow: hidden;
+    transform: translateY(-50px);
+    background-image: url("../img/9f7fb1eade9f0880fce7ff6b652b932c.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px; 
+}
+
+.hero img{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+
+}
+.hero h2{
+    position: absolute;
+    color: white;
+    right: 60px;
+    background-color: #00000036;
+    top: 40%;
+    text-align: center;
+}
+.hero::before{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.21); */
+}
+
+.link-color {
+    /* color: #3856a3d3!important; */
+    color: black; 
+    font-size: 18px;
+    
+    font-weight: 600;
+}
+.logo  p{
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 30px;
+    transform: translatey(5px);
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navo{
+    background-color: rgba(255, 255, 255, 0.995) ;
+    border-radius: 0px;
+    position: absolute;
+    top: 0px;
+    height: 70px;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* 
+body{
+background-color: #eee ;
+} */
+
+
+.links1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links1 a{
+    margin-left: 15px;
+}
+
+.links1 a:hover{
+    border-bottom: 2px var(--main-color) solid;
+    padding-bottom: 15px;
+    color: var(--main-color) ;
+}
+
+
+.lonk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 240px;
+}
+
+.sign{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    align-items: center;
+}
+
+.sign-in{
+    margin-right: 15px;
+    border: 2px solid var(--main-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.login:hover , .sign-in:hover{
+
+scale: 1.08;
+}
+
+.login{
+    border: 2px solid var(--main-color);
+    padding: 5px 10px;
+    background-color: var(--main-color);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.main-sec{
+    background-color: #eee;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.main-sec h2{
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 40px     ;
+}
+.main-sec p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cardso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+}
+
+.cardso .cardo{
+    height: 200px;
+    width: 200px;
+    background-color:var(--main-color);
+    display: flex;
+    flex-direction: column;
+    margin: 0 px;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.911) 0px 7px 29px 0px;
+}
+ .cardo .icons{
+    color: #230a0a;
+    font-size: 200px;
+    /* transform: translateY(-30px); */
+}
+.cardo p {
+    transform: translatey(40px);
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.media .media1{
+font-size: 30px;
+}
+.media{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: auto;
+    
+}
+
+.footer{
+    background-color: white;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 0;
+    border-radius: 20px;       
+    transform: translateY(60px);
+}
+
+
+
+
+body{
+    overflow-x: hidden
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.anm {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  background-color: #fff;
+  color: var(--main-color);
+  font-family: "Roboto Mono", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  overflow: hidden;
+  margin: 0;
+}
+.anm span{
+    font-size: 20px;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  .anm {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+.dropprofileo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    cursor: pointer;
+    left: 10px;
+    display: none;
+
+}
+
+.dropprofileo p{
+    text-align: center;
+    transform: translateY(7px);
+}
+.pro , .logout{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4px;
+    justify-content: space-around;
+}
+
+
+
+
+.Hide{
+    display: none;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover { 
+    text-decoration: none; 
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
